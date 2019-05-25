@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter,Route} from "react-router-dom";
-import "./Css/style.css";
+import "./css/style.css";
 import Navbar from "./Components/navbar";
 import Breakfast from "./Components/breakfast";
 import Hamburgers from "./Components/hamburgers";

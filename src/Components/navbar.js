@@ -1,10 +1,12 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
+import logo from "../assets/descarga.png";
+import "../css/style.css";
 
 
 
 
-const Navbar =() => (
+const Navbar = props => (
 
 
     <nav>
@@ -17,6 +19,14 @@ const Navbar =() => (
       <li className="nav-menu"> <NavLink className="nav-menu__link"  to="/extra">Complementos </NavLink></li>
       </ul>
       </div>
+      <div className= "total">
+      
+      <ul className= "nav-menu">
+      <li className="nav-total"> <span className="nav-total__link" >Catidad </span></li>
+      <li className="nav-total"> <span className="nav-total__link" >Producto </span></li>
+      <li className="nav-total"> <span className="nav-total__link" >Precio</span></li>
+      </ul>
+      </div>
 
     
 
@@ -25,3 +35,6 @@ const Navbar =() => (
 );
 
 export default Navbar;
+
+
+
