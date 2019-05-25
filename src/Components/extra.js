@@ -1,22 +1,23 @@
 import React from "react";
+import data from '../Data/menu.json'
 
-const Extra=() => (
+const Extra=() => {
 
-    
+  return(
     <div className="container">
-     <ul className= "hamburguer-container">
-        <td>Papas a la Francesa</td>
-        <td>$15</td>
-      </ul>
-      <ul className= "hamburguer-container">
-        <td>Aros de Cebolla</td>
-        <td>$15</td>
-      </ul>
-      </div>
+    {data.complements.map((item)=>(
     
-   
+    <button type="button" className="menu-container">
+    <img src={item.image}></img>
+    </button>
+
+   ))}
+
+    </div>
+  );
+
+};
 
 
-);
 
 export default Extra;

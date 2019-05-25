@@ -1,22 +1,22 @@
 import React from "react";
+import data from '../Data/menu.json'
 
-const Drinks=() => (
 
-    
+const Drinks=() => {
+
+  return (
     <div className="container">
-     <ul className= "hamburguer-container">
-        <td>Refresco </td>
-        <td>$15</td>
-      </ul>
-      <ul className= "hamburguer-container">
-        <td>Agua </td>
-        <td>$10</td>
-      </ul>
-      </div>
+    {data.drinks.map((item)=> (
+
+    <button type="button" className="menu-container">
+    {item.item} 
+    ${item.price}
+    <img src={item.image}></img>
+    </button>
     
-   
-
-
-);
+    ))}
+    </div>
+  );
+};
 
 export default Drinks;

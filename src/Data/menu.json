@@ -1,0 +1,150 @@
+
+
+{
+    "breakfast": [
+        {
+            "id": "0",
+            "item": "Sandwich de jamón y queso",
+            "image": "http://i65.tinypic.com/2wg4utc.png",
+            "price": "35.00",
+            "quantity": 0
+        },
+        {
+            "id": "1",
+            "item": "Jugo natural",
+            "image": "http://i65.tinypic.com/311nsxg.png",
+            "price": "15.00",
+            "quantity": 0
+        },
+        {
+            "id": "2",
+            "item": "Café americano",
+            "image": "http://i67.tinypic.com/2445c3b.png",
+            "price": "20.00",
+            "quantity": 0
+        },
+        {
+            "id": "3",
+            "item": "Café con leche",
+            "image": "http://i63.tinypic.com/2uy5b3a.png",
+            "price": "28.00",
+            "quantity": 0
+        }
+    ],
+    "restOfTheDay": [
+        {
+            "id": "00",
+            "item": "Hamburguesa sencilla",
+            "type": [
+                "Res",
+                "Pollo",
+                "Vegetariana"
+            ],
+            "image": "http://i65.tinypic.com/fa4ks9.png",
+            "price": "40.00",
+            "quantity": 0
+        },
+        {
+            "id": "01",
+            "item": "Hamburguesa doble",
+            "type": [
+                "Res",
+                "Pollo",
+                "Vegetariana"
+            ],
+            "image": "http://oi64.tinypic.com/5bw585.jpg",
+            "price": "55.00",
+            "quantity": 0
+        },
+        {
+            "id": "02",
+            "item": "Extra Queso",
+            "image": "http://i66.tinypic.com/14trmg.png",
+            "price": "15.00",
+            "quantity": 0
+        },
+        {
+            "id": "03",
+            "item": "con Huevo",
+            "image": "http://i68.tinypic.com/1zeo10.png",
+            "price": "15.00",
+            "quantity": 0
+        },
+        {
+            "id": "06",
+            "item": "Papas a la francesa",
+            "image": "http://i65.tinypic.com/xf91ue.png",
+            "price": "15.00",
+            "quantity": 0
+        },
+        {
+            "id": "07",
+            "item": "Aros de cebolla",
+            "image": "http://oi64.tinypic.com/wilrmo.jpg",
+            "price": "15.00",
+            "quantity": 0
+        }
+    ],
+
+    "drinks":[
+        {
+            "id": "04",
+            "item": "Agua",
+            "image": "http://oi64.tinypic.com/e9fdol.png",
+            "price": "10.00",
+            "quantity": 0
+        },
+        {
+            "id": "05",
+            "item": "Refresco",
+            "image": "http://i68.tinypic.com/2ug18io.png",
+            "price": "15.00",
+            "quantity": 0
+        }
+    ],
+    
+    "complements": [
+        {
+            "id": "001",
+            "item": "s/jitomate",
+            "image":"http://oi64.tinypic.com/10foll0.png",
+            "quantity": -1
+        },
+        {
+            "id": "002",
+            "item": "s/pepinillos",
+            "image": "http://i68.tinypic.com/2w2ip15.png",
+            "quantity": -1
+        },
+        {
+            "id": "003",
+            "item": "s/cebolla",
+            "image": "http://i66.tinypic.com/9pq73k.png",
+            "quantity": -1
+        },
+        {
+            "id": "004",
+            "item": "s/lechuga",
+            "image": "http://i66.tinypic.com/27y3gwn.png",
+            "quantity": -1
+        },
+        {
+            "id": "005",
+            "item": "s/catsup",
+            "image": "http://i63.tinypic.com/dx09aq.png",
+            "quantity": -1
+        },
+        {
+            "id": "006",
+            "item": "s/mostaza",
+            "image": "http://i68.tinypic.com/slsbw5.png",
+            "quantity": -1
+        },
+        {
+            "id": "007",
+            "item": "s/mayonesa",
+            "image": "http://i68.tinypic.com/21eyv0k.png",
+            "quantity": -1
+        }
+    ]
+}

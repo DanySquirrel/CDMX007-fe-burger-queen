@@ -1,23 +1,26 @@
 import React from 'react';
+import data from '../Data/menu.json'
 
 
-const Breakfast=() => (
 
-    
+
+const Breakfast=() => {
+
+  return (
     <div className="container">
-     <ul className= "hamburguer-container">
-        <td>Sandwich de jamón y queso </td>
-        <td>$35</td>
-      </ul>
-      <ul className= "hamburguer-container">
-        <td>Jugo Natural </td>
-        <td>$15</td>
-      </ul>
-      </div>
+    {data.breakfast.map((item)=>(
     
-   
+    <button type="button" className="menu-container">
+    {item.item} 
+    ${item.price}
+    <img src={item.image}></img>
+    </button>
+      
+    ))}
+    </div>
+  );
+};
 
 
-);
 
 export default Breakfast;

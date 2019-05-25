@@ -1,25 +1,24 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+
+
 
 
 const Navbar =() => (
 
 
     <nav>
-      <h2 class= "logo"><a class="logo-link" href="#">Menu</a></h2>
-      <ul class= "nav-menu">
-      <li> <Link className="nav-menu__link" to="/">Desayuno </Link></li>
-      <li> <Link className="nav-menu__link" to="/hamburguers">Hamburguesas </Link></li>
-      <li> <Link className="nav-menu__link" to="/drinks">Bebidas </Link></li>
-      <li> <Link className="nav-menu__link" to="/extra">Complementos </Link></li>
+      <div className= "menu">
+      <h2 className="logo"><a className="logo-link" href=""> </a></h2>
+      <ul className= "nav-menu">
+      <li className="nav-menu"> <NavLink className="nav-menu__link" to="/">Desayuno </NavLink></li>
+      <li className="nav-menu"> <NavLink className="nav-menu__link" to="/hamburgers">Hamburguesas </NavLink></li>
+      <li className="nav-menu"> <NavLink className="nav-menu__link"  to="/drinks">Bebidas </NavLink></li>
+      <li className="nav-menu"> <NavLink className="nav-menu__link"  to="/extra">Complementos </NavLink></li>
       </ul>
+      </div>
 
-      <ul>
-      <li> Cantidad </li>
-      <li> Producto </li>
-      <li> Precio </li>
-      </ul>
-
+    
 
     </nav>
 

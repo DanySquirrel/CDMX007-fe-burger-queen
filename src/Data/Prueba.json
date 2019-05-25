@@ -1,0 +1,32 @@
+export const breakfast= 
+
+[
+    {
+        "id": "0",
+        "item": "Sandwich de jamón y queso",
+        "image": "src/images/BurgerQueen/",
+        "price": "$ 35.00",
+        "quantity": 0
+    },
+    {
+        "id": "1",
+        "item": "Jugo natural",
+        "image": "images/BurgerQueen/zumo-de-naranja.png",
+        "price": "$ 15.00",
+        "quantity": 0
+    },
+    {
+        "id": "2",
+        "item": "Café americano",
+        "image": "images/BurgerQueen/taza-para-cafe.png",
+        "price": "$ 20.00",
+        "quantity": 0
+    },
+    {
+        "id": "3",
+        "item": "Café con leche",
+        "image": "images/BurgerQueen/capuchino.png",
+        "price": "$ 28.00",
+        "quantity": 0
+    }
+];
