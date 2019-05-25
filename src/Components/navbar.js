@@ -7,8 +7,6 @@ import "../css/style.css";
 
 
 const Navbar = props => (
-
-
     <nav>
       <div className= "menu">
       <h2 className="logo"><a className="logo-link" href=""> </a></h2>
