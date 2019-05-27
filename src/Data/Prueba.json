@@ -1,32 +1,157 @@
-export const breakfast= 
-
-[
-    {
-        "id": "0",
-        "item": "Sandwich de jamón y queso",
-        "image": "src/images/BurgerQueen/",
-        "price": "$ 35.00",
-        "quantity": 0
-    },
-    {
-        "id": "1",
-        "item": "Jugo natural",
-        "image": "images/BurgerQueen/zumo-de-naranja.png",
-        "price": "$ 15.00",
-        "quantity": 0
-    },
-    {
-        "id": "2",
-        "item": "Café americano",
-        "image": "images/BurgerQueen/taza-para-cafe.png",
-        "price": "$ 20.00",
-        "quantity": 0
-    },
-    {
-        "id": "3",
-        "item": "Café con leche",
-        "image": "images/BurgerQueen/capuchino.png",
-        "price": "$ 28.00",
-        "quantity": 0
-    }
-];
+{
+    "menu":[{
+            "id": "0",
+            "name": "Sandwich de jamón y queso",
+            "image": "http://i65.tinypic.com/2wg4utc.png",
+            "price": "35.00",
+            "quantity": 0,
+            "type":"breakfast"
+        },
+        {
+            "id": "1",
+            "name": "Jugo natural",
+            "image": "http://i65.tinypic.com/311nsxg.png",
+            "price": "15.00",
+            "quantity": 0,
+            "type":"breakfast"
+        },
+        {
+            "id": "2",
+            "name": "Café americano",
+            "image": "http://i67.tinypic.com/2445c3b.png",
+            "price": "20.00",
+            "quantity": 0
+        },
+        {
+            "id": "3",
+            "name": "Café con leche",
+            "image": "http://i63.tinypic.com/2uy5b3a.png",
+            "price": "28.00",
+            "quantity": 0,
+            "type":"breakfast"
+        },
+        {
+            "id": "00",
+            "name": "Hamburguesa sencilla",
+            "option": [
+                "Res",
+                "Pollo",
+                "Vegetariana"
+            ],
+            "image": "http://i65.tinypic.com/fa4ks9.png",
+            "price": "40.00",
+            "quantity": 0,
+            "type":"restOfTheDay"
+        },
+        {
+            "id": "01",
+            "name": "Hamburguesa doble",
+            "option": [
+                "Res",
+                "Pollo",
+                "Vegetariana"
+            ],
+            "image": "http://oi64.tinypic.com/5bw585.jpg",
+            "price": "55.00",
+            "quantity": 0,
+            "type":"restOfTheDay"
+        },
+        {
+            "id": "02",
+            "name": "Extra Queso",
+            "image": "http://i66.tinypic.com/14trmg.png",
+            "price": "15.00",
+            "quantity": 0,
+            "type":"restOfTheDay"
+        },
+        {
+            "id": "03",
+            "name": "con Huevo",
+            "image": "http://i68.tinypic.com/1zeo10.png",
+            "price": "15.00",
+            "quantity": 0,
+            "type":"restOfTheDay"
+        },
+        {
+            "id": "06",
+            "name": "Papas a la francesa",
+            "image": "http://i65.tinypic.com/xf91ue.png",
+            "price": "15.00",
+            "quantity": 0,
+            "type":"restOfTheDay"
+        },
+        {
+            "id": "07",
+            "name": "Aros de cebolla",
+            "image": "http://oi64.tinypic.com/wilrmo.jpg",
+            "price": "15.00",
+            "quantity": 0,
+            "type":"restOfTheDay"
+        },
+        {
+            "id": "04",
+            "name": "Agua",
+            "image": "http://oi64.tinypic.com/e9fdol.png",
+            "price": "10.00",
+            "quantity": 0,
+            "type":"drinks"
+        },
+        {
+            "id": "05",
+            "name": "Refresco",
+            "image": "http://i68.tinypic.com/2ug18io.png",
+            "price": "15.00",
+            "quantity": 0,
+            "type":"drinks"
+        },
+        {
+            "id": "001",
+            "name": "s/jitomate",
+            "image":"http://oi64.tinypic.com/10foll0.png",
+            "quantity": -1,
+            "type":"complements"
+        },
+        {
+            "id": "002",
+            "name": "s/pepinillos",
+            "image": "http://i68.tinypic.com/2w2ip15.png",
+            "quantity": -1,
+            "type":"complements"
+        },
+        {
+            "id": "003",
+            "name": "s/cebolla",
+            "image": "http://i66.tinypic.com/9pq73k.png",
+            "quantity": -1,
+            "type":"complements"
+        },
+        {
+            "id": "004",
+            "name": "s/lechuga",
+            "image": "http://i66.tinypic.com/27y3gwn.png",
+            "quantity": -1,
+            "type":"complements"
+        },
+        {
+            "id": "005",
+            "name": "s/catsup",
+            "image": "http://i63.tinypic.com/dx09aq.png",
+            "quantity": -1,
+            "type":"complements"
+        },
+        {
+            "id": "006",
+            "name": "s/mostaza",
+            "image": "http://i68.tinypic.com/slsbw5.png",
+            "quantity": -1,
+            "type":"complements"
+        },
+        {
+            "id": "007",
+            "name": "s/mayonesa",
+            "image": "http://i68.tinypic.com/21eyv0k.png",
+            "quantity": -1,
+            "type":"complements"
+        }
+]
+}

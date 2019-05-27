@@ -1,32 +1,36 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-// import logo from "../assets/descarga.png";
+import logoBQ from "../assets/descarga.png";
 import "../css/style.css";
+// import React, { Component } from 'react';
 
 
 
 
-const Navbar = props => (
+const Navbar =()=> (
     <nav>
       <div className= "menu">
-      <h2 className="logo"><a className="logo-link" href=""> </a></h2>
       <ul className= "nav-menu">
+      <img className= "logo-nav" src= {logoBQ} alt="logo-icon" />
       <li className="nav-menu"> <NavLink className="nav-menu__link" to="/">Desayuno </NavLink></li>
       <li className="nav-menu"> <NavLink className="nav-menu__link" to="/hamburgers">Hamburguesas </NavLink></li>
       <li className="nav-menu"> <NavLink className="nav-menu__link"  to="/drinks">Bebidas </NavLink></li>
       <li className="nav-menu"> <NavLink className="nav-menu__link"  to="/extra">Complementos </NavLink></li>
       </ul>
       </div>
-      <div className= "total">
+
+      <div className= "total-nav">
       
-      <ul className= "nav-menu">
-      <li className="nav-total"> <span className="nav-total__link" >Catidad </span></li>
-      <li className="nav-total"> <span className="nav-total__link" >Producto </span></li>
-      <li className="nav-total"> <span className="nav-total__link" >Precio</span></li>
+      <ul className= "total">
+      <li className="nav-total"> Catidad </li>
+      <li className="nav-total"> Producto </li>
+      <li className="nav-total"> Precio </li>
       </ul>
+
+      
       </div>
 
-    
+    // ticket
 
     </nav>
 
@@ -36,3 +40,27 @@ export default Navbar;
 
 
 
+// class Navbar extends Component {
+  
+//   render() {
+//       return (
+//         <header className='header'>
+//          <nav>
+//              <div className="menu">
+//                <ul className="nav-menu">
+//                <img className= "logo-nav" src= {logoBQ} alt="logo-icon" />
+//                  <li className="nav-menu"><NavLink className="nav-menu_link" activeClassName="activate" exact to="/breakfast">Desayuno</NavLink></li>
+//                  <li className="nav-menu"><NavLink className="nav-menu_link" activeClassName="activate" to="/hamburgers">Hamburguesas</NavLink></li>
+//                  <li className="nav-menu"><NavLink className="nav-menu_link" activeClassName="activate" to="/drinks">Bebidas</NavLink></li>
+//                  <li className="nav-menu"><NavLink className="nav-menu_link" activeClassName="activate" to="/extra">Complementos</NavLink></li>                   
+                 
+                 
+//                </ul>
+//              </div>
+//          </nav> 
+//      </header>
+//       )
+//   }
+// }
+
+// export default Navbar;
