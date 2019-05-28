@@ -22,7 +22,7 @@ class App extends Component{
   return (
     <BrowserRouter>
     <div className="App">
-    <Navbar/>"
+    <Navbar/>
      {/* <Route path=5'/___' component={___} /> */}
     <Route exact path= "/" render={ ( )=> <Breakfast/>}/>
     <Route path= "/hamburgers" render={ ( )=> <Hamburgers/>}/>
