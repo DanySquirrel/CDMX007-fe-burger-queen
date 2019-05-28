@@ -1,23 +1,23 @@
-import React from "react";
-import data from '../Data/menu.json'
+// import React from "react";
+// import data from '../Data/menu.json'
 
 
-const Hamburgers=() => {
+// const Hamburgers=() => {
  
-  return(
-  <div className="container">
-  {data.restOfTheDay.map((item)=>( 
+//   return(
+//   <div className="container">
+//   {data.restOfTheDay.map((item)=>( 
     
-    <button type="button" className="menu-container">
-    {item.item} 
-    ${item.price} 
-    <img src={item.image}></img>
-    </button>
+//     <button type="button" className="menu-container">
+//     {item.item} 
+//     ${item.price} 
+//     <img src={item.image}></img>
+//     </button>
 
- ))}
-  </div>
-);
-};
+//  ))}
+//   </div>
+// );
+// };
 
 
-export default Hamburgers;
+// export default Hamburgers;

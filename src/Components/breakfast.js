@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import data from '../Data/menu.json';
+// import React, {Component} from 'react';
+// import data from '../Data/menu.json';
 
 
 
@@ -12,35 +12,35 @@ import data from '../Data/menu.json';
 
 
 
-export default class Breakfast extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      items: []
-    };
-  }
+// export default class Breakfast extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       items: []
+//     };
+//   }
 
-  _add(){
-    		if(this.props.onClick)
-    			this.props.onClick();
-      }
+//   _add(){
+//     		if(this.props.onClick)
+//     			this.props.onClick();
+//       }
 
-  render() {
-    return (
-      <div className="container">
-      {data.breakfast.map((todo)=> (
+//   render() {
+//     return (
+//       <div className="container">
+//       {data.breakfast.map((todo)=> (
 
-      <button key={todo.item} type="button" className="menu-container" onClick={this._add.bind(this)} >
-    {todo.item}
-      ${todo.price}
-      <img src={todo.image}></img>
-      </button>
+//       <button key={todo.item} type="button" className="menu-container" onClick={this._add.bind(this)} >
+//     {todo.item}
+//       ${todo.price}
+//       <img src={todo.image}></img>
+//       </button>
         
-      ))}
-      </div>
-    );
-  }
-}
+//       ))}
+//       </div>
+//     );
+//   }
+// }
 
 
 // __________________________________
